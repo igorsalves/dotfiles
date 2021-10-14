@@ -12,12 +12,14 @@
   "terminal.integrated.fontSize": 12,
   "editor.tabSize": 2,
   // "editor.fontFamily": "JetBrains Mono, Fira Code",
-  "editor.fontLigatures": true,
+  // "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [80, 120],
   "editor.parameterHints.enabled": false,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
   },
   "extensions.ignoreRecommendations": true,
   
@@ -52,11 +54,12 @@
 	  "migrations": "tools",
     "modules": "components",
     "implementations": "core",
-    "dtos": "type",
+    "dtos": "interface",
     "fakes": "mock",
     "websockets": "pipe",
     "globals": "global",
-    "ui": "views"
+    "ui": "views",
+    "typeorm": "database"
   },
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
@@ -70,5 +73,8 @@
   "eslint.validate": [
     "javascript",
     "typescript"
-  ]
+  ],
+  "eslint.alwaysShowStatus": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "redhat.telemetry.enabled": false,
 }
