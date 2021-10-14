@@ -17,4 +17,5 @@ Configurações utilizadas no VSCode.
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 * [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 * [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
+* [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer)
 * [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
